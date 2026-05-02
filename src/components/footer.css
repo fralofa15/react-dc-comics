@@ -2,3 +2,23 @@
     background-image: url("/img/footer-bg.jpg");
     height: 300px;
 }
+
+.footer-li{
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    color: gray;
+}
+
+.footer-li .li-title{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.footer-li li{
+    text-align: left;
+    font-size: 12px;
+    list-style: none;
+}
