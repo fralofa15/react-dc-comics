@@ -1,17 +1,14 @@
 function Header() {
-  const items = [
-    { sezione: "Characters" },
-    { sezione: "Comics" },
-    { sezione: "Movies" },
-    { sezione: "TV" },
-    { sezione: "Games" },
-    { sezione: "Collectibles" },
-    { sezione: "Videos" },
-    { sezione: "Fans" },
-    { sezione: "News" },
-    { sezione: "Shop" },
-  ];
-
+  const items = ["Characters", 
+    "Comics", 
+    "Movies", 
+    "TV",
+    "Games", 
+    "Collectibles", 
+    "Videos", 
+    "Fans", 
+    "News", 
+    "Shop"];
   return (
     <nav className="navbar navbar-expand-lg bg-white">
       <div className="container">
@@ -19,9 +16,9 @@ function Header() {
         <img src="/img/dc-logo.png" alt="logo" width="80" />
         <ul className="navbar-nav">
           {items.map((item) => (
-            <li className="nav-item" key={item.sezione}>
+            <li className="nav-item" key={item}>
               <a className="nav-link">
-                {item.sezione}
+                {item}
               </a>
             </li>
           ))}
