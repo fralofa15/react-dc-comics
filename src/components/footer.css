@@ -3,6 +3,10 @@
     height: 300px;
 }
 
+.footer-img{
+    background-image: url("/img/dc-logo.png");
+}
+
 .footer-li{
     display: flex;
     gap: 40px;

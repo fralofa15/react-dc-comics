@@ -1,0 +1,24 @@
+.bg {
+    background-color: #0282f9;
+    height: 150px;
+}
+
+.item-display {
+    margin-top: 50px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.item-li {
+    font-size: 15px;
+    color: white;
+    list-style: none;
+}
+
+.img-size {
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+}

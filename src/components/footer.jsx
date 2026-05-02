@@ -3,6 +3,7 @@ function Footer() {
     return (
         <footer>
             <div className="footer-bg">
+                <div className="footer-img"></div>
                     <div className="container footer-li">
                         <div>
                             <ul>
