@@ -1,0 +1,54 @@
+.main-img {
+    background-image: url("/img/jumbotron.jpg");
+    height: 350px;
+    background-size: cover;
+}
+
+.btn-style {
+    background-color: #0282f9;
+    border: 0px;
+    color: white;
+    font-weight: 700;
+    padding: 10px 60px;
+}
+
+section {
+    background-color: black;
+    padding: 40px;
+    position: relative;
+}
+
+.series-title {
+    background-color: #0282f9;
+    color: white;
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    top: -25px;
+    left: 40px;
+}
+
+.comics-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.comic-card {
+    width: calc((100% / 6) - 20px);
+}
+
+.comic-card img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.comic-card h3 {
+    font-size: 12px;
+    color: white;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
